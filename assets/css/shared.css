@@ -11,3 +11,25 @@ body ,html{
 .logo {
     height: 40px;
 }
+
+/* Footer */
+
+.meu-rodape.fixed  p {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.meu-rodape.fixed {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.meu-rodape.fixed .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    background-color: #f5f5f5;
+}

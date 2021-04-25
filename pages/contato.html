@@ -22,7 +22,7 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="../assets/css/shared.css">
-    <link rel="shortcut icon" href="https://on.fiap.com.br/theme/image.php/fiap/theme/1619114274/favicon"/>
+    <link rel="shortcut icon" href="https://on.fiap.com.br/theme/image.php/fiap/theme/1619114274/favicon" />
 
     <title>FIP - Contato</title>
 </head>
@@ -39,7 +39,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <div class="collapse navbar-collapse float-right" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Home</a>
@@ -53,11 +53,11 @@
                         <a class="nav-link" href="servicos.html">Serviço</a>
                     </li>
 
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contato.html">Contato</a>
                     </li>
                 </ul>
@@ -66,14 +66,93 @@
         </nav>
     </header>
 
-    <section class="meu-conteudo">
+    <section class="container meu-conteudo">
 
-        conteudo do meu site
+        <section class="mb-4">
+
+            <h2 class="h1-responsive font-weight-bold my-4">Entre em contato</h2>
+            <p class="w-responsive mx-auto mb-5">
+                Você tem alguma dúvida? Não hesite em contatar a gente. Assim que possível nosso time entrará em contato
+                para te ajudar :)</p>
+
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name">Nome Completo</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mt-2">
+                                    <label for="subject">Assunto</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mt-2">
+                                    <label for="message">Sua mensagem</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="text-center text-md-left mt-4">
+                        <button class="btn btn-outline-primary btn-block"
+                            onclick="document.getElementById('contact-form').submit();">Enviar</button>
+                    </div> 
+                    <div class="status"></div>
+                </div>
+
+                <div class="col-md-3 text-right">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Praça XPTO, número 285, sala 10</p>
+                            <p>Santos/SP</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 55 13 98204 - 5295</p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>contato@fip.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
 
     </section>
-    <footer class="meu-rodape">
 
+    <footer class="text-muted meu-rodape fixed">
+        <div class="container">
+            <p>FIP © 2021 - Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
