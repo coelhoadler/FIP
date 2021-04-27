@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
 body ,html{ 
     font-family: 'Red Hat Display', sans-serif;
@@ -10,7 +11,7 @@ body ,html{
 }
 
 .logo {
-    height: 40px;
+    height: 62px;
 }
 
 /* Home */
@@ -20,8 +21,9 @@ body ,html{
 }
 
 .title {
+    font-family: 'Kalam', cursive;
     font-size: 48px;
-    font-weight: 900;;
+    font-weight: 700;
     color: #FF6F26;
 }
 
@@ -42,7 +44,7 @@ body ,html{
 /* Footer */
 
 .my-footer {
-    min-height: 150px;
+    min-height: 170px;
     background-color: #01bbb0;
 }
 
