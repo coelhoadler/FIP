@@ -2,6 +2,7 @@
 
 body ,html{ 
     font-family: 'Red Hat Display', sans-serif;
+    background-color: #F8F1E9;
 }
 
 .navbar{
@@ -15,7 +16,6 @@ body ,html{
 /* Home */
 
 .container-outer {
-    background-color: #F8F1E9;
     width: 100%;
 }
 
